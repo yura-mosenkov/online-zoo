@@ -562,6 +562,19 @@ button>a {
    max-width: 366px;
 }
 
+.animals-block__card:hover .card__description {
+   opacity: 1;
+   transform: translate(10px);
+   transition: .5s ease all;
+}
+
+.animals-block__card:hover .card__image {
+   transition: .5s ease all;
+   transform: scale(1.05);
+   background-color: #333B41;
+   opacity: 0.5;
+}
+
 .card__upper {
    position: relative;
    overflow: hidden;
@@ -571,14 +584,10 @@ button>a {
 
 .card__image {}
 
-.card__image:hover {
-   transition: .5s ease all;
-   transform: scale(1.05);
-}
-
 .card__info {
    display: flex;
    justify-content: space-between;
+   position: relative;
 }
 
 .card__description {
