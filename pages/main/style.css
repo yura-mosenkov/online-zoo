@@ -351,6 +351,10 @@ button>a {
    color: #F9804B;
 }
 
+._highlight {
+   color: #F9804B;
+}
+
 
 .header__design {
    font-family: 'Roboto';
