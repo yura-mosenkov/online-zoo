@@ -558,8 +558,18 @@ button>a {
    max-width: 366px;
 }
 
-.card__image {
+.card__upper {
+   position: relative;
+   overflow: hidden;
+   height: 366px;
    margin: 0 0 8px 0;
+}
+
+.card__image {}
+
+.card__image:hover {
+   transition: .5s ease all;
+   transform: scale(1.05);
 }
 
 .card__info {
