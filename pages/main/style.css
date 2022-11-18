@@ -1000,6 +1000,11 @@ button>a {
    color: #FFFFFF;
 }
 
+.socials__name:hover {
+   color: #FA6F32;
+}
+
+
 .column__center {
    display: flex;
    flex-direction: column;
